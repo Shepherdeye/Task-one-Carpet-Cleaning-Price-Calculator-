@@ -12,7 +12,7 @@
 
             int? small = Convert.ToInt32(Console.ReadLine());
 
-            double? result = ((large * 35) + (small * 25)) - .06;
+            double? result = ((large * 70) + (small * 35)) - .06;
 
             Console.WriteLine($"=====================================\n your Amount  is  ${result}");
 
