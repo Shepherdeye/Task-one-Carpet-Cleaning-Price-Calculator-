@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("How many large mat ..?  (if you dont have type -> 0)");
+            Console.WriteLine("How many large carpet ..?  (if you dont have type -> 0)");
 
             int? large =Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("How many small mat ..? (if you dont have type -> 0)");
+            Console.WriteLine("How many small carpet ..? (if you dont have type -> 0)");
 
             int? small = Convert.ToInt32(Console.ReadLine());
 
