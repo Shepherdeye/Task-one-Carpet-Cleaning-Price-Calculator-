@@ -1,13 +1,6 @@
 <h1>Search Task</h1>
 
---> Example 
 
-int X = 10;
- <br>
-int Y = 20;
-<br>
-Console.WriteLine($"Equation: {X}+{Y}={X + Y:C}");
- <br>
 
 .................... Answers..................
 
@@ -33,5 +26,6 @@ Standard Numeric Format helps us control how the output appears, whether it's a 
  Console.WriteLine($"Percentage: ={percentage:P}");
 <br>
   <strong>Result</strong>
+  <br>
   Percentage: = 97.56%
 </p>
