@@ -3,14 +3,17 @@
 --> Example 
 
 int X = 10;
+ <br>
 int Y = 20;
+<br>
 Console.WriteLine($"Equation: {X}+{Y}={X + Y:C}");
+ <br>
 
 .................... Answers..................
 
 <h3>Why the output of equation=  $30.00 ?</h3>
 <p> 
-Because we used a Standard Numeric Format type "C" (Currency) and it appeare the sing  of  "$" .
+Because we used a Standard Numeric Format type "C" (Currency) and it appeare the  dollar sign  "$" .
 </p>
 <br>
 <h3>what is its benefit ?</h3>
@@ -22,8 +25,11 @@ Standard Numeric Format helps us control how the output appears, whether it's a 
 <h3>the other example</h3>
 <p> 
   double studentPoints = 400;
+  <br>
  int totalPoints = 410;
+  <br>
  double percentage = studentPoints / totalPoints;
+  <br>
  Console.WriteLine($"Percentage: ={percentage:P}");
 <br>
   <strong>Result</strong>
