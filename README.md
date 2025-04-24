@@ -7,7 +7,7 @@ https://drive.google.com/drive/folders/1CGruFAKLkJ34cvshq7hhHW7AdgL7JX0M?usp=sha
 
 <h3>Why the output of equation=  $30.00 ?</h3>
 <p> 
-Because we used a Standard Numeric Format type "C" (Currency) and it appeare the  dollar sign  "$" .
+Because we used a Standard Numeric Format type "C" (Currency) and it appear the dollar sign "$" . 
 </p>
 <br>
 <h3>what is its benefit ?</h3>
