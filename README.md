@@ -14,7 +14,6 @@ Because we used a Standard Numeric Format type "C" (Currency) and it appeare the
 Standard Numeric Format helps us control how the output appears, whether it's a currency, percentage, decimal, or other numeric type.
 </p>
 <br>
-<br>
 <h3>the other example</h3>
 <p> 
   double studentPoints = 400;
