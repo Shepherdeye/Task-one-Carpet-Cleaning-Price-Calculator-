@@ -24,10 +24,10 @@
 
             double tax = 6.6;
 
-            Console.WriteLine("cost : $" + cost);
-            Console.WriteLine("Tax : $" + tax);
+            Console.WriteLine($"cost : {cost:C}");
+            Console.WriteLine($"Tax : { tax :C}");
 
-            Console.WriteLine($"=====================================\n Total estimate : ${result} \n This estimate is valid for 30 days");
+            Console.WriteLine($"=====================================\n Total estimate : {result:C} \n This estimate is valid for 30 days");
 
 
 
