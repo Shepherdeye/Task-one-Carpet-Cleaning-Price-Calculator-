@@ -25,7 +25,7 @@ Standard Numeric Format helps us control how the output appears, whether it's a 
   <br>
  Console.WriteLine($"Percentage: ={percentage:P}");
 <br>
-  <strong>Result => </strong>
+  <strong>Result => 
+  Percentage: = 97.56% </strong>
   
-  Percentage: = 97.56%
 </p>
