@@ -4,17 +4,30 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("How many large carpet ..?  (if you dont have type -> 0)");
+            Console.WriteLine("Welcome to islam carpet clean service ..!\n");
+            
+            
 
-            int? large =Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("How many small carpet ..? (if you dont have type -> 0)");
+            Console.WriteLine("Enter Number of small carpet ..?  (if you dont have small carpet type number 0)");
 
             int? small = Convert.ToInt32(Console.ReadLine());
 
-            double? result = ((large * 70) + (small * 35)) - .06;
+            Console.WriteLine("Enter Number of large carpet ..? (if you dont have large carpet type number 0)");
 
-            Console.WriteLine($"=====================================\n your Amount  is  ${result}");
+            int? large =Convert.ToInt32(Console.ReadLine());
+
+            double? result = large * 35 + small * 25 + 6.6;
+
+            int? cost = large * 35 + small * 25;
+
+            Console.WriteLine("\n");
+
+            double tax = 6.6;
+
+            Console.WriteLine("cost : $" + cost);
+            Console.WriteLine("Tax : $" + tax);
+      
+            Console.WriteLine($"=====================================\n Total estimate : ${result} \n This estimate is valid for 30 days");
 
         }
 
