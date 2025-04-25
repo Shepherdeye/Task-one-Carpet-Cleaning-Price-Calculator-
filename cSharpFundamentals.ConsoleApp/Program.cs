@@ -16,9 +16,10 @@
 
             double tax = 6.6;
 
-            double? result = large * 35 + small * 25 + tax;
-
             int? cost = large * 35 + small * 25;
+
+            double? result = cost + tax;
+
 
             Console.WriteLine("\n");
 
