@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to islam carpet clean service ..!\n");
-
-
+            Console.WriteLine("Estimate for carpet cleaning service ..!\n");
 
             Console.WriteLine("Enter Number of small carpet ..? ");
 
